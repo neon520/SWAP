@@ -63,13 +63,11 @@ Paso 6: Guardamos el documento y reiniciamos el servidor
 
 	/etc/init.d/mysql restart
 
-Paso 7: Nos vamos a la máquina esclavo y abrimos el mismo archivo, con la orden del Paso 1, y añadimos lo siguiente
+Paso 7: Repetimos los pasos 1, 2, 3 y 5 en el esclavo. Además añadimos al archivo lo siguiente
 
-	Master-host = 192.168.1.100
-	Master-user = usuariobd
-	Master-password = 123456
+	server-id = 2
 
-Paso 8: Guardamos y reiniciamos como en el Paso 6
+Paso 8: Aplicamos el Paso 6 en el esclavo.
 
 Una vez realizado todo esto volvemos al maestro y entramos en mysql. Una vez hecho esto introducimos lo siguiente:
 
@@ -79,11 +77,11 @@ Una vez realizado todo esto volvemos al maestro y entramos en mysql. Una vez hec
 	FLUSH TABLES;
 	FLUSH TABLES WITH READ LOCK;
 
-Ahora, ejecutamos (sin salirnos de mysql)
+Ahora, ejecutamos (sin salirnos de mysql) y anotamos lo que nos sale
 
 	SHOW MASTER STATUS;
 
-Una vez hecho todo esto nos volvemos al esclavo y ejecutamos mysql y ponemos 
+Una vez hecho todo esto nos volvemos al esclavo y ejecutamos mysql y ponemos (con los datos anotados previamente)
 
 	CHANGE MASTER TO MASTER_HOST='192.168.31.200', MASTER_USER='esclavo', MASTER_PASSWORD='esclavo', MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=501, MASTER_PORT=3306;
 
