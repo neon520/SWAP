@@ -3,9 +3,7 @@
    + Antonio Solís Izquierdo
    + Javier Pérez García
 
-Para realizar esta práctica nos hemos basado en el siguiente recurso:
-
-	http://www.oliveninformatica.es/foros/curso-ubuntu-server/01instalaci%C3%B3n-de-ubuntu-server-1204-en-raid-1-y-configuraci%C3%B3n-inicial
+Para realizar esta práctica nos hemos basado en una práctica realizada el año anterior en la asignatura de Ingeniería de Servidores.
 
 Una vez indicado esto, empecemos:
 
