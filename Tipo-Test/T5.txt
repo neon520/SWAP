@@ -1,0 +1,13 @@
+1. ¿Cual es una de las metricas mas importantes en el rendimiento de servidores?
+a) Cantidad de usuarios
+b) Conexiones por segundo
+c) MBytes libres
+d) Mbps a la hora
+CORRECTA: B
+
+2. ¿Qué no es importante en un tráfico tipo "tienda web?
+a) Alto ancho de banda
+b) Velocidad
+c) Experiencia de usuario
+d) Ninguna de las anteriores
+CORRECTA: A

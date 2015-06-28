@@ -1,0 +1,13 @@
+1. Transformar el servidor web en una granja web resulta:
+a) Sencillo, ya que apenas hay que preparar aplicaciones para distribuir la carga.
+b) Un proceso sencillo.
+c) Un proceso complejo.
+d) Complejo, ya que hay que configurar la red para soportar trafico decreciente.
+SOLUCION: C
+
+2. ¿Qué característica produce un mayor impacto en la escalabilidad de un sistema?
+a) La optimización del código.
+b) El diseño del sistema.
+c) La optimización del hardware.
+d) Las respuestas a) y c) son correctas.
+SOLUCION: C

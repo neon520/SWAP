@@ -1,0 +1,13 @@
+1. ¿Cúal no es una tarea del cortafuegos?
+a) Prohibir la ejecución de aplicaciones como administrador
+b) Controlar protocolos de aplicación
+c) Bloquear y filtrar paquetes
+d) Proteger los servidores y aplicaciones de ataques
+CORRECTA: A
+
+2. ¿Qué tipo de ataques no puede ser evitado por un balanceador de carga?
+a) TCP SYN
+b) Ping of Death
+c) IP Spoofing
+d) Man in the Middle
+CORRECTA: D

@@ -1,0 +1,13 @@
+1. ¿Qué servicios NO se suelen ofrecen por el front-rail?
+a) SMTP
+b) HTTP
+c) Bases de datos
+d) FTP
+SOLUCION: C	
+
+2. Al configurar una zona segura ¿cómo se comunican los backbones?
+a) Simplemente con un cable.
+b) Con una tarjeta de red.
+c) Con un cortafuegos.
+d) Ninguna es correcta.
+SOLUCION: C

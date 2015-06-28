@@ -1,0 +1,14 @@
+1. El balanceo de carga global es..:
+a) una nueva forma de balanceo de carga con mayor carga.
+b) una serie de técnicas para distribuir la carga entre varios centros de datos.
+c) poco complejo.
+d) la manera de unir la BD en un solo servidor.
+CORRECTA: B
+
+
+2. Si nos referimos al balanceo de carga, ¿Cuáles son algunos de los algoritmos más comunes?
+a) Balanceo basado en turnos, balanceo basado en el mayor número de conexiones y balanceo basado en ponderación.
+b) Balanceo basado en turnos, balanceo basado en el menor número de conexiones y balanceo basado en ponderación.
+c) Balanceo basado en turnos, balanceo basado en el mayor número de conexiones y balanceo basado en tiempo de llamada.
+d) Ninguna de las anteriores es correcta.
+CORRECTA: B

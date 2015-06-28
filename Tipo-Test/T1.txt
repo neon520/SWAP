@@ -1,0 +1,13 @@
+1. ¿Que es la escalabilidad?
+a) Es la altitud máxima a la que puede trabajar un servidor WEB
+b) Es la medida para saber cuantos servidores se pueden apilar uno encima de otro
+c) Es la capacidad para dar soporte a un número creciente de usuarios
+d) Ninguna es correcta
+SOLUCION: C
+
+2. ¿Es aconsejable montar siempre una granja web a la hora de servir contenido web?
+a) Sí, en cualquier caso.
+b) Sí , a no ser que el tráfico sea siempre muy bajo.
+c) Sí , a no ser que el tráfico sea siempre muy alto.
+d) Ninguna de las anteriores.
+SOLUCION : B
